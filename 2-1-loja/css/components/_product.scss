@@ -1,0 +1,65 @@
+@import '../partials/typography';
+
+.product {
+    margin: 36px auto;
+
+    &__images {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        &__thumbnail {
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &__others {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+
+            img {
+                background: #E8E8E8;
+                width: 100px;
+                height: 60px;
+                border: none;
+            }
+        }
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        &__title {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        &__style {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &__upgrade {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            &__text {
+                color: #9C9C9C;
+            }
+        }
+        
+        &__btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+    }
+}

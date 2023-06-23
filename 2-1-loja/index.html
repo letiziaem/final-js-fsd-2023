@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="main1.js" defer></script>
+    <title>Homepage</title>
+</head>
+<body>
+    <div id="loading_container" style="display: flex; justify-content: center; align-items: center; background: black; position: absolute; color: white; width: 100vw; height: 100vh; z-index: 1; font-size: 2em; opacity: 85%;">LOADING...</div>
+    <main>
+        <nav class="nav">
+            <div class="nav__logo">
+                <div class="nav__logo__thumbnail">
+                    <a href="http://localhost:3000/2-1-loja/">
+                        <img src="assets/edit-extended-logo.png" alt="Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="nav__menu">
+                <ul class="nav__menu__items">
+                    <li class="nav__menu__items__list">
+                        <a class="nav__menu__items__list__name text" href="">Seating</a>
+                        <div class="menu__item__dropdown">
+                            <div class="dropdown__column">
+                                <p class="dropdown__column__item bold">Shop by Category</p>
+                                <p class="dropdown__column__item">Sectionals</p>
+                                <p class="dropdown__column__item">Sofas</p>
+                                <p class="dropdown__column__item">Loveseats</p>
+                                <p class="dropdown__column__item">Accent Chairs</p>
+                                <p class="dropdown__column__item">Sleepers</p>
+                                <p class="dropdown__column__item">Sleep Kits</p>
+                                <p class="dropdown__column__item">Ottomans</p>
+                                <p class="dropdown__column__item">Seating Accessories</p>
+                                <p class="dropdown__column__item">All Seating</p>
+                            </div>
+                            <div class="dropdown__column">
+                                <p class="dropdown__column__item bold">Shop by Collection</p>
+                                <p class="dropdown__column__item">Nomad Collection</p>
+                                <p class="dropdown__column__item">Field Collection</p>
+                                <p class="dropdown__column__item">Range Collection</p>
+                                <p class="dropdown__column__item">Union Collection</p>
+                                <p class="dropdown__column__item">NEW</p>
+                                <p class="dropdown__column__item">Compare Collections</p>
+                            </div>
+                            <div class="dropdown__column">
+                                <p class="dropdown__column__item bold">Shop by Upholstery</p>
+                                <p class="dropdown__column__item">Performance Fabric Seating</p>
+                                <p class="dropdown__column__item">Italian Leather Seating</p>
+                                <p class="dropdown__column__item">Performance Velvet Seating</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__menu__items__list">
+                        <a class="nav__menu__items__list__name text" href="">Living Room</a>
+                        <div class="menu__item__dropdown">
+                            <div class="dropdown__column">
+                                <p class="dropdown__column__item bold">Living Room</p>
+                                <p class="dropdown__column__item">Seating</p>
+                                <p class="dropdown__column__item">Sectionals</p>
+                                <p class="dropdown__column__item">Sofas</p>
+                                <p class="dropdown__column__item">Accent Chairs</p>
+                                <p class="dropdown__column__item">Sleepers</p>
+                                <p class="dropdown__column__item">Fabric Seating</p>
+                                <p class="dropdown__column__item">Leather Seating</p>
+                                <p class="dropdown__column__item">Velvet Seating</p>
+                                <p class="dropdown__column__item">Seating Accessories</p>
+                            </div>
+                            <div class="dropdown__column">
+                                <p class="dropdown__column__item bold">Accessories</p>
+                                <p class="dropdown__column__item">Seating Accessories</p>
+                                <p class="dropdown__column__item">Throw Pillows</p>
+                                <p class="dropdown__column__item">Throw Blankets</p>
+                                <p class="dropdown__column__item">Trays</p>
+                                <p class="dropdown__column__item">Lighting</p>
+                                <p class="dropdown__column__item">Clearance</p>
+                                <p class="dropdown__column__item">All Accessories</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__menu__items__list">
+                        <a class="nav__menu__items__list__name text" href="">Outdoor</a>
+                    </li>
+                    <li class="nav__menu__items__list">
+                        <a class="nav__menu__items__list__name text" href="">Bedroom</a>
+                    </li>
+                    <li class="nav__menu__items__list">
+                        <a class="nav__menu__items__list__name text" href="">Storage</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="splash container__fluid">
+            <img src="assets/splash-screen.webp" alt="Living room with a blue sofa">
+            <div class="splash__group">
+                <p class="splash__group__text">Clever designs, delivered free</p>
+                <button class="button group__btn">SHOP BEDROOM</button>
+            </div>
+        </section>
+
+        <section class="categories container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="categories__title headline">
+                        Clever designs, delivered free
+                    </h2>
+                </div>
+            </div> 
+            <div class="row" id="new_categories">
+                <div class="categories__col col-lg-4">
+                    <div class="categories__col__thumbnail">
+                        <a href="allseating.html">
+                            <img src="assets/category-seating.webp" alt="">
+                        </a>
+                        <p class="categories__col__thumbnail__text label">Seating</p>
+                    </div>
+                </div>
+                <div class="categories__col col-lg-4">
+                    <div class="categories__col__thumbnail">
+                        <img src="assets/category-outdoor.webp" alt="">
+                        <p class="categories__col__thumbnail__text label">Outdoor</p>
+                    </div>
+                </div>
+                <div class="categories__col col-lg-4">
+                    <div class="categories__col__thumbnail">
+                        <img src="assets/category-storage.webp" alt="">
+                        <p class="categories__col__thumbnail__text label">Storage</p>
+                    </div>
+                </div>
+                <div class="categories__col col-lg-4">
+                    <div class="categories__col__thumbnail">
+                        <img src="assets/category-bedroom.webp" alt="">
+                        <p class="categories__col__thumbnail__text label">Bedroom</p>
+                    </div>
+                </div>
+                <div class="categories__col col-lg-4">
+                    <div class="categories__col__thumbnail">
+                        <img src="assets/category-tables.webp" alt="">
+                        <p class="categories__col__thumbnail__text label">Tables</p>
+                    </div>
+                </div>
+                <div class="categories__col col-lg-4">
+                    <div class="categories__col__thumbnail">
+                        <img src="assets/category-rugs.webp" alt="">
+                        <p class="categories__col__thumbnail__text label">Rugs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aditional__info container__fluid">
+            <div class="aditional__info__row row">
+                <div class="aditional__info__group">
+                    <img class="aditional__info__group__img" src="assets/icon-6.png" alt="">
+                    <p class="aditional__info__group__text">Fast & free shipping<br>
+                        Every single order ships for free. No minimums, no tiers, no fine print whatsoever.</p>
+                </div>
+                <div class="aditional__info__group">
+                    <img class="aditional__info__group__img" src="assets/icon-7.png" alt="">
+                    <p class="aditional__info__group__text">Modular, easy-to-move design<br>
+                        Our innovative modular design is driven by the belief that furniture should fit this home, and
+                        the next one.</p>
+                </div>
+                <div class="aditional__info__group">
+                    <img class="aditional__info__group__img" src="assets/icon-8.png" alt="">
+                    <p class="aditional__info__group__text">Durable, premium materials<br>
+                        We use materials like sustainably-forested wood, strengthened steel hardware, and top-grain
+                        Italian leather.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="collections container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="collections__title headline">
+                        Clever designs, delivered free
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="collections__thumbnail">
+                        <img src="assets/products/1/product-hover.webp" alt="">
+                        <p class="collections__thumbnail__text label">Arbid Collection</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="collections__thumbnail">
+                        <img src="assets/products/2/product-hover.webp" alt="">
+                        <p class="collections__thumbnail__text label">Lucid Collection</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="collections__thumbnail">
+                        <img src="assets/products/8/product-hover.webp" alt="">
+                        <p class="collections__thumbnail__text label">Anid Collection</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="collections__thumbnail">
+                        <img src="assets/products/4/product-hover.webp" alt="">
+                        <p class="collections__thumbnail__text label">Ambar Collection</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="nomad container__fluid">
+                <div class="nomad__group">
+                    <p class="nomad__group__title label">NOMAD</p>
+                    <p class="nomad__group__text label"><span class="bold">The Ambid</span> system works beautifully. It's comfortable, absolutely solid, and looks great.</p>
+                    <a class="nomad__group__link label" href="">SHOP NOW</a>
+                </div>
+                <img class="nomad__img" src="assets/sofa_container.png" alt="">
+        </section>
+
+        <section class="carousel">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="carousel__title headline">
+                        Shop these real-life spaces
+                    </h2>
+                </div>
+            </div>
+            <div class="carousel__overflow">
+                <div class="col-lg-3">
+                    <img class="carousel__thumbnail" src="assets/carousel/Range-Fabric-Stone-Gray.webp" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img class="carousel__thumbnail" src="assets/carousel/Kettle-Side-Table.webp" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img class="carousel__thumbnail" src="assets/carousel/Nomad-Velvet.webp" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img class="carousel__thumbnail" src="assets/carousel/Nomad-Leather.webp" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img class="carousel__thumbnail" src="assets/carousel/imagem_5.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="video-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="video__title headline">
+                        Modular, easy-to-move design
+                    </h2>
+                </div>
+            </div>
+            <video class="video-1__size" src="assets/background-video.mp4" autoplay muted loop></video>
+            <div class="video-1__btn">
+                <button class="button">SHOP SEATING</button>
+            </div>
+        </section>
+
+        <footer class="footer container__fluid">
+            <div class="footer__items">
+                <form class="footer__items__form" action="" id="newsletter">
+                    <input class="footer__items__form__text label" type="email" name="email" placeholder="Sign up for enthralling couch reads">
+                    <button class="footer__items__form__btn text" type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="footer__items__icons">
+                    <img src="assets/socials/icons8-youtube.svg" alt="">
+                    <img src="assets/socials/icons8-instagram.svg" alt="">
+                    <img src="assets/socials/icons8-facebook.svg" alt="">
+                </div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__row__menu">
+                    <div class="footer__row__menu__items">
+                        <a class="footer__row__menu__items__text text bold" href="">Shopping Services</a>
+                        <a class="footer__row__menu__items__text text" href="">Schedule Consultation</a>
+                        <a class="footer__row__menu__items__text text" href="">Showrooms</a>
+                        <a class="footer__row__menu__items__text text" href="">Trade Program</a>
+                        <a class="footer__row__menu__items__text text" href="">Outlet</a>
+                    </div>
+                    <div class="footer__row__menu__items">
+                        <a class="footer__row__menu__items__text text bold" href="">About</a>
+                        <a class="footer__row__menu__items__text text" href="">Our Story</a>
+                        <a class="footer__row__menu__items__text text" href="">Reviews</a>
+                        <a class="footer__row__menu__items__text text" href="">Careers</a>
+                        <a class="footer__row__menu__items__text text" href="">Financing</a>
+                        <a class="footer__row__menu__items__text text" href="">Financing</a>
+                        <a class="footer__row__menu__items__text text" href="">Our Blog</a>
+                    </div>
+                    <div class="footer__row__menu__items">
+                        <a class="footer__row__menu__items__text text bold" href="">Resources</a>
+                        <a class="footer__row__menu__items__text text" href="">Look Up Order Status</a>
+                        <a class="footer__row__menu__items__text text" href="">Assembly Instructions</a>
+                        <a class="footer__row__menu__items__text text" href="">Returns</a>
+                        <a class="footer__row__menu__items__text text" href="">Shipping & Delivery</a>
+                        <a class="footer__row__menu__items__text text" href="">FAQ</a>
+                        <a class="footer__row__menu__items__text text" href="">Refer a Friend</a> 
+                    </div>
+                    <div class="footer__row__menu__items">
+                        <a class="footer__row__menu__items__text text bold" href="">Contact Customer Experience</a>
+                        <a class="footer__row__menu__items__text text" href="">Email: support@template.com</a>
+                        <a class="footer__row__menu__items__text text" href="">Phone: 224-628-7769</a>
+                        <p class="footer__row__menu__items__text text">Hours:</p>
+                        <p class="footer__row__menu__items__text text">Monday to Friday — 10a to 8p EST</p>
+                        <p class="footer__row__menu__items__text text">Saturday to Sunday — 10a to 2p EST</p>
+                    </div>
+                </div>
+                <div class="footer__row__terms">
+                    <div class="footer__row__terms__copyright">
+                        <p class="smalltext">© 2023 Template<br>
+                           Terms - Accessibility - Sitemap - Privacy</p>
+                    </div>
+                    <div class="footer__row__terms__address">
+                        <p class="smalltext">15 W 27th Street, 9th Floor New York, NY, 10001</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
